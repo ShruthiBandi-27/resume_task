@@ -1,0 +1,365 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+
+    <style>
+   
+    .main{
+    margin: auto;
+    width : 800px;
+    background-color: lightyellow;
+
+    }
+    .profile{
+    text-align:center;
+    height:200px;
+    
+    
+    }
+    .name{
+        background-color:rgb(236, 236, 69);
+        width: 250px;
+        height: 50px;
+        margin:auto;
+        position:relative;
+        top:145px;
+        border-radius: 10%;
+    }
+    .vline{
+        
+        position:absolute;
+        left:50%;
+        width:2px;
+        background-color: grey;
+        height:130%;
+       
+    }
+
+    .icon{
+        font-size:55px;
+        position:relative;
+        left: 2px;
+        top: 1px;
+        padding:5px;
+        /*background-color:rgb(115, 115, 243);*/
+        background-color:yellow;
+        color: white;
+        border-radius: 50%;
+        border:1px solid yellow;
+        margin:auto;
+        color: rgb(115, 115, 243);
+        
+        
+
+    }
+    .sub-heading{
+        display:inline;
+        left:25px;
+        position: relative;
+        font-size:30px;
+        
+    }
+    .icon_border{
+      border: 5px dotted rgb(115, 115, 243);
+      border-radius: 50%;
+      position:relative;
+      left:0px;
+      font-size: 50px;
+      width: 70px;
+      height: 70px;
+      font-size: 10px;
+      display :inline-block;
+      
+     
+    }
+    table{
+        padding:5px;
+        padding-bottom:0px;
+        border : 0px solid black;
+        table-layout: fixed;
+        
+    }
+  
+   
+    .range{
+        width:100%;
+        height:5px;
+        margin: 3px 0px;
+        
+    }
+    input[type='range']::-webkit-slider-runnable-track{
+        background-color:transparent;
+        height:5px;
+        
+    }
+    input[type='range']::-webkit-slider-thumb{
+        border-radius: 50%;
+        border:none;
+        height:100%;
+        width:100%;
+        margin:-4px;
+    }
+    /*
+    input[type='range']::-ms-track{
+        width: 100%;
+        height:5px;
+        background: transparent;
+        border-color: yellow;
+        color:transparent;
+    }
+    input[type=range]::-ms-fill-lower {
+    background: rgb(168, 51, 51);
+    border-radius: 10px;
+    }
+    input[type=range]::-ms-fill-upper {
+    background:red;
+  
+    }*/
+
+    
+    
+   
+    </style>
+    </head>
+    <body>
+        <div class="main">
+            <div style="background-color:lightyellow;height:240px;border-bottom:2px solid  rgb(115, 115, 243);">
+                <section>
+                    <div class="profile_div" style="background-color: rgb(115, 115, 243);;height: 150px;">
+                        <div class="profile">
+                            <div class="name" >
+                                <p style="padding-top:18px;font-size: 20px;"><b>Shruthi Bandi</b></p>
+                            </div> 
+                            <img src="Shruthi.jpg" width="140" height="120" style="border-radius: 50%;border: 4px dotted rgb(236, 236, 69);">
+                            <div style="background-color: rgb(115, 115, 243);;height:30px;">
+                                
+                            </div>
+                        </div>
+                        <p style="text-align: center;">Hyderabad | 8247512244 | shruthi@gmail.com</p>
+                    </div>
+                   
+                </section>  
+            </div>
+            <br>
+            <div class="info">
+               <div class="col1">
+                <div>
+                    <div class="vline"></div>
+                </div>
+                <div style="float:left;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="width: 370px;">
+                            <article>
+                                <div >
+                                    <div class="icon_border" id="icon_border">
+                                        <i class="fa fa-user-circle icon" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="sub-heading" >Profile</p>
+                                </div>
+                                    
+                                <div>
+                                    <p>Innovative   optimized  solution  seeker.Excited to  be at the  deployment  phase  of  my  new  career  as  a	 Manager web   developer.I  am  ambitious,  adventurous, assiduous ,  animated  ,  and  an  alliteration  advocate.</p>
+                                </div>
+                            </article>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="float:right;position:relative;left:0%;">
+                    <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                            <td style="width: 370px;position: relative;left:10px;">
+                                <article>
+                                    <div >
+                                        <div class="icon_border" id="icon_border">
+                                            <i class="fa fa-graduation-cap icon" style="font-size:43px;position:relative;top:8px;" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="sub-heading" >Education</p>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <span><b>B.E, Computer Science</b></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>2016 - 2020</span>
+                                        <p style="padding:2px;margin:2px;font-size: 14px;">M.V.S.R Engineering College, Hyderabad</p>
+                                        <ul>
+                                            <li>Developed Project to block the devices on Network using ACL in Java</li>
+                                            <li>Developed a Movie Ticket Booking , front-end design using HTML,CSS,JS</li>
+                                            <li>Done a Project on Cyber Security to sniff the data Packet on Network using Pcap Library in C Programming</li>
+                                        </ul>
+                                        <span><b>Intermediate, MPC</b></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>2014 - 2016</span>
+                                        <p style="padding:2px;margin:2px;font-size: 14px;">SriChaintanya Junior Kalashala, Hyderabad</p>
+                                        <ul>
+                                            <li>Qualified in JEE Mains Entrance</li>
+                                            <li>Qualified in Eamcet</li>
+                                        </ul>
+                                        <span><b>SSC</b></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>2013 - 2014</span>
+                                        <p style="padding:2px;margin:2px;font-size: 14px;">Bhashyam High School, Hyderabad</p>
+
+                                    </div>
+                                </article>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div><br>
+                <div >
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td style="width: 370px;position: relative;left:10px;">
+                                    <article>
+                                    <div  class="icon_border" id="icon_border">
+                                        <i class="fa fa-flask icon" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="sub-heading" >Projects</p>
+                                    <ul>
+                                        <li>Blocking Devices on Network using ACL using, in Java</li>
+                                        <li>Movie Ticket Booking, front-end design using HTML,CSS,JS</li>
+                                        <li>Data Packet Sniffing on a Network using Pcap library in C</li>
+                                        <li>Procurement Management on ServiceNow Platform</li>
+                                        <li>Issuing Temporary ID-cards to Employee, on ServiceNow Platform</li>
+                                    </ul>
+                                   
+                                </div>
+                            </article>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                    
+                </div>
+                <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td style="width: 370px;">
+                                <article>
+                                    <div>
+                                        <div  class="icon_border" id="icon_border">
+                                            <i class="fa fa-flask icon" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="sub-heading" >Skills</p>
+                                    </div>
+                                    <div>
+                                        
+                                        <table style="width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <th colspan="2"><p style="text-align: center;">Technical Skills</p></th>
+                                                </tr>
+                                                <tr>
+                                                    <td >JavaScript</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="50"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >HTML</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="75"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >CSS</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="60"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >Java Programming</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="75"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >MySQL</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="50"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="2"><p style="text-align: center;">Additional Skills</p></th>
+                                                </tr>
+                                                <tr>
+                                                    <td >Project Management</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="70"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >Business Development</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="65"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >Time Management</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="80"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >Editing</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="35"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td >Good Communication</td>
+                                                    <td><input type="range" class="range" min="1" max="100" value="80"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </article>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  
+               <!--Work Experience-->
+               <br>
+                <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td style="width: 370px;">
+                                <article>
+                                    <div >
+                                        <div class="icon_border" id="icon_border">
+                                            <i class="fa fa-briefcase icon" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="sub-heading" >Work Experience</p>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <span><b>ServiceNow Trainee Developer</b></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>07/2020 - Present</span>
+                                        <ul>
+                                            <li>Works on Servicenow platform</li>
+                                            <li>Uses html,css,JS to develop projects</li>
+                                            <li>Develops Web applications using SNOW</li>
+                                        </ul>
+                                        <span><b>Intern at CDAC for one month</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>06/2019 - 07/2019</span>
+                                        <ul>
+                                            <li>Done Short Term Internship Cum Training On Cyber Security</li>
+                                            <li>Submitted Networking Project</li>
+                                        </ul>
+                                    </div> 
+                                   
+                                </article>
+                                </td>
+                              
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+               
+               
+            </div>
+            
+
+           
+           
+            </div>
+           <br><br><br>
+        </div>
+    </body>
+    </html>
